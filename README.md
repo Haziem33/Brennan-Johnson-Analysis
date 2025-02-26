@@ -1,8 +1,5 @@
 # Brennan Johnson Analysis ⚽📊
 
-![Dashboard Preview](preview.jpg)  
-*Example of the Power BI dashboard summarizing Brennan Johnson’s key stats*  
-
 ## 📌 Project Overview  
 This project analyzes **Brennan Johnson’s** performance using **Python, Jupyter Notebooks, and Power BI**. The dataset includes key metrics such as goals, assists, expected goals (xG), shot accuracy, and performance trends.  
 

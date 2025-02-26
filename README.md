@@ -1,6 +1,6 @@
 # Brennan Johnson Analysis ⚽📊
 
-![Dashboard Preview](dashboard_screenshot.png)  
+![Dashboard Preview](preview.jpg)  
 *Example of the Power BI dashboard summarizing Brennan Johnson’s key stats*  
 
 ## 📌 Project Overview  

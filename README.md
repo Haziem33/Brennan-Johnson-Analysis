@@ -1,49 +1,70 @@
-# Brennan Johnson Analysis
 # Brennan Johnson Analysis ⚽📊
 
-## Overview
+![Dashboard Preview](dashboard_screenshot.png)  
+*Example of the Power BI dashboard summarizing Brennan Johnson’s key stats*  
 
-This project provides an in-depth statistical analysis of **Brennan Johnson's** performance, focusing on shot conversion rates, assist conversion rates, goals per 90 minutes, and overall contributions across multiple seasons. A **dashboard** has been created to visualize key insights effectively.
+## 📌 Project Overview  
+This project analyzes **Brennan Johnson’s** performance using **Python, Jupyter Notebooks, and Power BI**. The dataset includes key metrics such as goals, assists, expected goals (xG), shot accuracy, and performance trends.  
 
-## Project Files
+The aim is to gain deeper insights into his contributions and efficiency as an attacker.  
 
-- **BJ\_data\_EDA.ipynb** - Exploratory Data Analysis (EDA) of Brennan Johnson's performance.
-- **Brennan\_johnson\_data\_cleaning.ipynb** - Data cleaning and preprocessing.
-- **BJ\_editing\_data.ipynb** - Additional data transformations and preparation.
-- **brennan\_johnson\_cleaned.csv** - Cleaned dataset ready for analysis.
-- **brennan\_johnson\_grouped.csv** - Grouped statistics per season.
-- **dashboard.jpg** - Screenshot of the final dashboard visualization.
+## 📊 Key Objectives  
+- **Evaluate Goal Contributions:** Analyzing goals and assists per 90 minutes.  
+- **xG vs. Actual Performance:** Comparing expected goals with actual goals.  
+- **Shot & Passing Analysis:** Assessing shot accuracy, key passes, and final third effectiveness.  
+- **Trends & Improvements:** Tracking performance patterns across different matches.  
 
-## Objectives
+## 🛠️ Tech Stack  
+- **Python:** Data cleaning & analysis (`pandas`, `numpy`, `matplotlib`, `seaborn`).  
+- **Jupyter Notebooks:** Exploratory Data Analysis (EDA).  
+- **Power BI:** Visualizing player performance in an interactive dashboard.  
+- **GitHub:** Version control & collaboration.  
 
-✅ Analyze shot & assist conversion rates across seasons.\
-✅ Compute goal contributions per 90 minutes.\
-✅ Visualize key performance metrics with interactive charts.
+## 📂 Project Structure  
+```
+├── data/  
+│   ├── brennan_johnson_cleaned.csv         # Cleaned dataset  
+│   ├── brennan_johnson_grouped.csv         # Aggregated statistics  
+│   └── raw_data/                           # Original raw data files  
+│  
+├── notebooks/  
+│   ├── BJ_data_EDA.ipynb                   # Exploratory Data Analysis  
+│   ├── BJ_editing_data.ipynb               # Data processing & cleaning  
+│   └── Brennan_johnson_data_cleaning.ipynb # Final preprocessing steps  
+│  
+├── dashboard/  
+│   ├── Finally_john.pbix                    # Power BI dashboard file  
+│   └── dashboard_screenshot.png             # Dashboard preview image  
+│  
+├── README.md  
+└── requirements.txt                         # Python dependencies  
+```  
 
-## Tools & Technologies Used
-
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, Plotly)
-- **Jupyter Notebook**
-- **Streamlit / Dash** (for the interactive dashboard)
-
-## How to Run
-
-1. Install the required dependencies:
-   ```bash
-   pip install pandas numpy matplotlib seaborn plotly streamlit
+## 🚀 How to Run  
+1. **Clone the repository**  
    ```
-2. Open and run the **Jupyter Notebooks** for data analysis.
-3. To launch the dashboard, use:
-   ```bash
-   streamlit run dashboard.py
+   git clone https://github.com/Haziem33/Brennan-Johnson-Analysis.git  
+   cd Brennan-Johnson-Analysis
+   ```  
+2. **Set up the environment**  
    ```
+   pip install -r requirements.txt
+   ```  
+3. **Run Jupyter Notebook for EDA**  
+   ```
+   jupyter notebook
+   ```  
+4. **Open Power BI file**  
+   - Load `Finally_john.pbix` to explore the dashboard.  
 
-## Dashboard Preview
+## 📈 Dashboard  
+The **Power BI dashboard** provides an **interactive view** of Brennan Johnson’s performance. It includes:  
+- Goals & Assists Overview  
+- xG Analysis  
+- Shot Map & Accuracy  
+- Passing & Creativity Metrics  
+- Match-wise Performance Trends  
 
-
-
----
-
-This project provides a detailed breakdown of Brennan Johnson's performance, helping analysts and football enthusiasts gain better insights into his strengths and areas for improvement. 🚀
+👉 *Check out the dashboard in Power BI (`Finally_john.pbix`).*  
 
 
